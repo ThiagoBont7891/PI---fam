@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.root{
+    --cor-1: #000000;
+    --cor-2: #FEF3E2;
+    --font-1: "Inter", serif;
+}
+.inicio__ferramenta{
+    box-sizing: border-box;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.apresentacao{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.titulo__abertura{
+    display: flex;
+    font-family: var(--font-1);
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    height: 40px;
+    justify-content: center;
+}
+.texto__abertura__chines{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo__texto {
+    display: flex;
+    flex-direction: column;
+}
+.botao__entrar {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid var(--cor-1);
+    border-radius: 16px;
+    padding: 5% 0 5% 0;
+    font-size: 28px;
+    font-family: var(--font-1);
+    font-weight: 600;
+    color: var(--cor-1);
+    text-decoration: none;
+    background-color:grey;
+}
+.cabecalho__voltar {
+    display: flex;
+    padding: 2%;
+    border-radius: 16px;
+    background-color: gray;
+    gap: 80px;
+}
+.cabecalho__voltar__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-family: var(--font-1);
+    font-weight: 600;
+    color: var(--cor-1);
+    text-decoration: none;
+}

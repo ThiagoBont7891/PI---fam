@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&display=swap');
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+:root{
+    --cor-1: #000000; /*cor das letras*/
+    --cor-2: #E7F0DC; /* cor de fundo da página*/
+    --cor-3: #F6F6F6; /*cor de fundo botões*/
+    --cor-4: #000000; /*cor das bordas dos pratos e botões*/
+    --font-1: "Inter", serif; /*fonte titulos e textos*/
+}
+.cardapio__primeiro {
+    padding: 1% 0 1% 2%;
+    width: 51.5%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-3);
+}
+.cabecalho__logo__restaurante {
+    height: 120px;
+    width: 120px;
+}
+.cardapio__pagina__1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color:var(--cor-2);
+}
+.botao__superior__icone {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+.botao__superior__prato {
+    width: 270px;
+    padding: 5px 0;
+    border: 2px solid var(--cor-4);
+    border-radius: 11px;
+    background-color: var(--cor-3);
+}
+.pagina1__pratos__tradicionais__botao{
+    text-decoration: none;
+    color: var(--cor-4);
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: end;
+}
+.botao__texto__prato{
+    font-family: var(--font-1);
+    color: var(--cor-1);
+    font-size:15px; 
+    width: 150px;
+}
+.botao__superior__bebida {
+    width: 270px;
+    padding: 5px 0;
+    border: 2px solid var(--cor-4);
+    border-radius: 11px;
+    background-color: var(--cor-3);
+}
+.pagina1__bebidas__botao{
+    text-decoration: none;
+    color: var(--cor-1);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.botao__texto__bebida {
+    font-family: var(--font-1);
+    color: var(--cor-1);
+    font-size:15px; 
+    width: 150px;
+}
+.superior1__sopa{
+    height: 50px;
+    width: 50px;
+}
+.superior2__copo{
+    height: 50px;
+    width: 50px;
+}
+.conteudo__pagina1{
+    padding: 28px 35% 0 35%; 
+    justify-content: flex-start;
+    height: 10000px;
+}
+img {
+    width: 150px;
+    height: 105px;
+    border-radius: 12px;
+}
+
+
+.conteudo__pagina1__superior {
+    font-family: var(--font-1);
+    font-size: 22px;
+    padding: 0 0 15px 0;
+    font-family: var(--font-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.conteudo__pagina1__titulo,
+.conteudo__pagina1__subtitulo{
+    padding: 30px 0 0 0;
+    text-align: left;
+    font-family: var(--font-1);
+    font-size: 36px;
+    color: var(--cor-1);
+    width: 367px;
+}
+.conteudo__pagina1__inferior{
+    font-family: var(--font-1);
+    font-size: 22px;
+    padding: 0 0 15px 0;
+    font-family: var(--font-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.conteudo__pagina1__pratos__mais__pedidos__superior,
+.conteudo__pagina1__pratos__mais__pedidos__inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    gap: 40px;
+}
+
+.pratos__mais__pedidos__primeira__fila,
+.pratos__mais__pedidos__segunda__fila,
+.pratos__mais__pedidos__terceira__fila,
+.pratos__mais__pedidos__quarta__fila {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.pagina1__prato__botao {
+    text-decoration: none;
+    color: var(--cor-1);
+}
+.primeira__fila__prato,
+.segunda__fila__prato,
+.terceira__fila__prato,
+.quarta__fila__prato {
+    display: flex;
+    padding: 0px;
+    width: 150px;
+    height: 210px;
+    flex-direction: column; 
+    background-color: var(--cor-3);
+    font-family: var(--font-1);
+    font-size: 18px;
+    border: 2px solid var(--cor-4);
+    border-radius: 11px;
+ }
+
+ .cardapio__icones__inferiores{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 30% 0 30%;
+ }
+ .pagina1__icone__cardapio,
+ .pagina1__icone__pedido,
+ .pagina1__icone__reserva,
+ .pagina1__icone__perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: var(--cor-1);
+    font-family: var(--font-1);
+    font-size: 25px;
+    align-items: center;
+ }
+.inferior1__cardapio,
+.inferior1__pedido,
+.inferior1__reserva,
+.inferior1__perfil {
+    width: 100%;
+}
+@media (max-width: 2560px) {
+        *{
+            max-width: 100%;
+        }
+        .cardapio__primeiro {
+            padding: 1% 0 1% 2%;
+            width: 52%;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            background-color: var(--cor-3);
+        }
+        .botao__superior__icone {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0 10px 0 10px;
+            gap: 30px;
+        }  
+        .conteudo__pagina1__titulo,
+        .conteudo__pagina1__subtitulo{
+        padding: 30px 0 0 0;
+        text-align: left;
+        font-family: var(--font-1);
+        font-size: 36px;
+        color: var(--cor-1);
+        width: 25%;
+        }  
+        .conteudo__pagina1__pratos__mais__pedidos__superior,
+        .conteudo__pagina1__pratos__mais__pedidos__inferior {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 25%;
+            gap: 40px;
+        }
+        .primeira__fila__prato,
+        .segunda__fila__prato,
+        .terceira__fila__prato,
+        .quarta__fila__prato {
+            display: flex;
+            padding: 0px;
+            width: 140px;
+            height: 210px;
+            flex-direction: column; 
+            background-color: var(--cor-3);
+            font-family: var(--font-1);
+            font-size: 18px;
+            border: 2px solid var(--cor-4);
+            border-radius: 11px;
+        }
+        .cardapio__icones__inferiores{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            padding: 0 25% 0;
+         }
+    }
+@media (max-width: 1440px) {
+    *{
+        max-width: 100%;
+    }
+    .cardapio__primeiro {
+        width: 54%;
+    } 
+    .conteudo__pagina1__titulo,
+    .conteudo__pagina1__subtitulo{
+    width: 40%;
+    }  
+    .conteudo__pagina1__pratos__mais__pedidos__superior,
+    .conteudo__pagina1__pratos__mais__pedidos__inferior {
+        width: 40%;
+    }
+    .primeira__fila__prato,
+    .segunda__fila__prato,
+    .terceira__fila__prato,
+    .quarta__fila__prato {
+        font-size: 17px;
+    }
+    .cardapio__icones__inferiores{
+        padding: 0 15% 0 ;
+     }
+}
+@media (max-width: 1024px) {
+    *{
+        max-width: 100%;
+    }
+    .cardapio__primeiro {
+        width: 56%;
+    }
+    .conteudo__pagina1__titulo,
+    .conteudo__pagina1__subtitulo{
+    width: 50%;
+    }  
+    .conteudo__pagina1__pratos__mais__pedidos__superior,
+    .conteudo__pagina1__pratos__mais__pedidos__inferior {
+        width: 50%;
+    }
+    .primeira__fila__prato,
+    .segunda__fila__prato,
+    .terceira__fila__prato,
+    .quarta__fila__prato {
+        font-size: 17px;
+    }
+    .cardapio__icones__inferiores{
+        padding: 0 15% 0 ;
+     }
+}
+@media (max-width: 873px) {
+    *{
+        max-width: 100%;
+    }
+    .cardapio__primeiro {
+        width: 57%;
+    }
+    .conteudo__pagina1__titulo,
+    .conteudo__pagina1__subtitulo{
+    width: 65%;
+    }  
+    .conteudo__pagina1__pratos__mais__pedidos__superior,
+    .conteudo__pagina1__pratos__mais__pedidos__inferior {
+        width: 65%;
+    }
+    .cardapio__icones__inferiores{
+        padding: 0 0 0 0;
+     }
+}
+@media (max-width: 768px) {
+    *{
+        max-width: 100%;
+    }
+    .cardapio__primeiro {
+        width: 58%;
+    } 
+    .conteudo__pagina1__titulo,
+    .conteudo__pagina1__subtitulo{
+    width: 60%;
+    }  
+    .conteudo__pagina1__pratos__mais__pedidos__superior,
+    .conteudo__pagina1__pratos__mais__pedidos__inferior {
+        width: 60%;
+    }
+    .primeira__fila__prato,
+    .segunda__fila__prato,
+    .terceira__fila__prato,
+    .quarta__fila__prato {
+        font-size: 17px;
+    }
+    .cardapio__icones__inferiores{
+        padding: 0 5%;
+     }
+}
+@media (max-width: 425px) {
+    *{
+        max-width: 100%;
+    }
+    .cardapio__primeiro {
+        width: 64%;
+    } 
+    .conteudo__pagina1__titulo,
+    .conteudo__pagina1__subtitulo{
+    width: 90%;
+    }  
+    .conteudo__pagina1__pratos__mais__pedidos__superior,
+    .conteudo__pagina1__pratos__mais__pedidos__inferior {
+        width: 95%;
+    }
+    .primeira__fila__prato,
+    .segunda__fila__prato,
+    .terceira__fila__prato,
+    .quarta__fila__prato {
+        font-size: 17px;
+    }
+    .cardapio__icones__inferiores{
+        padding: 0 0;
+     }
+}
+
+
+
+
